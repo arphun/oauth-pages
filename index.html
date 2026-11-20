@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>batch_testbed</title>
+<style>
+  body { font-family: system-ui, sans-serif; max-width: 42rem; margin: 2rem auto;
+         padding: 0 1rem; line-height: 1.6; color: #222; background: #fff; }
+  h1 { font-size: 1.6rem; }
+  footer { margin-top: 2rem; font-size: 0.9rem; color: #555; }
+</style>
+</head>
+<body>
+<h1>batch_testbed</h1>
+<p>
+  batch_testbed is a private, single-user tool for batch image-generation
+  testing. It is not a public service and is not offered to anyone other than
+  its owner.
+</p>
+<h2>What it does</h2>
+<ul>
+  <li>Watches one Google Drive folder chosen by its owner for task folders and
+      a <code>ready</code> flag file.</li>
+  <li>Downloads the task's prompts and input images, generates images with
+      image-generation models, and uploads the results back to the same
+      folder.</li>
+</ul>
+<h2>Google account access</h2>
+<p>
+  The app asks for Google Drive access only so it can read and write files in
+  its owner's own task folder. It does not access any other Google service.
+</p>
+<p>See the <a href="privacy.html">privacy policy</a> for details.</p>
+<footer>batch_testbed · personal project</footer>
+</body>
+</html>
